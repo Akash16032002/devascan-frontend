@@ -56,7 +56,7 @@ const OcrInterface: React.FC = () => {
       const formData = new FormData();
       formData.append("file", imageFile);
 
-      const res = await fetch("http://127.0.0.1:8000/sloka-image", {
+      const res = await fetch("https://devascan.onrender.com/sloka-image", {
         method: "POST",
         body: formData,
       });
