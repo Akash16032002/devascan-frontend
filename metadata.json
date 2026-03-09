@@ -1,0 +1,5 @@
+{
+  "name": "DevaScan",
+  "description": "An AI-powered web application to digitize handwritten Devanagari script from images using advanced OCR technology provided by the Gemini API.",
+  "requestFramePermissions": []
+}
